@@ -6,7 +6,8 @@ except ImportError:
 
 def main():
     url = 'https://spreadsheets.google.com/feeds/list/1azDyccjKiAU0G8HymIeJt34JTDR6jxaqvgbfQE5rt_k/ovifiob/public/values?alt=json'
-    data = json.load(urlopen(url))
+    response = urlopen(url)
+    data = json.loads(response.read().decode('utf-8')) 
     print("")
     for element in data['feed']['entry']:
         title = element['title']['$t']
@@ -14,3 +15,4 @@ def main():
             title = title + ":"
         status = element['gsx$message']['$t']
         print(title + " " + status)
+    print("")
