@@ -11,7 +11,7 @@ with open('LICENSE') as f:
 
 setup(
     name='ueaitstatus',
-    version='1.0.0',
+    version='1.0.1',
     description='UEA IT Status from the command line',
     long_description=readme,
     author='Mike Adams',
