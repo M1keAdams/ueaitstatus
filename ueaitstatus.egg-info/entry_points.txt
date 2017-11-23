@@ -1,3 +1,0 @@
-[console_scripts]
-ueaitstatus = ueaitstatus.command_line:main
-

@@ -1,13 +1,12 @@
-dailytao
+ueaitstatus
 ====
 
-A python command-line utility to display a daily chapter of the Tao Te Ching.
-Content courtesy of a web scrape of [DailyTao.org](http://dailytao.org/), which is run by [Glen D Sanford](https://github.com/9len).
+A python command-line utility to display a the current UEA IT Service status.
+Content courtesy of a web scrape of [UEA IT Service Status](https://itstatus.uea.ac.uk).
 
 Setup:
 
 ```console
-$ git clone https://github.com/m1keadams/dailytao.git
-$ cd dailytao
-$ pip install -r requirements.txt
+$ git clone https://github.com/m1keadams/ueaitstatus.git
+$ cd ueaitstatus
 $ pip install .
